@@ -1,32 +1,22 @@
 ---
-title: "Introduction"
-metaTitle: "This is the title tag of this page"
-metaDescription: "This is the meta description"
+title: "Introducción"
+metaTitle: "Introducción"
+metaDescription: "Definición, Caracteristicas, Jugadores, Herramientas"
 ---
 
-Some introduction text. Lists out all the headings from h1 to h6. Easy to customise.
+El Ajedrez es un juego de mesa para dos jugadores, se utiliza un tablero de juego compuesto de un cuadrado formado por 64 casillas en 8 filas y 8 columnas, las casillas son de dos colores y están alternadas por color, cada jugador al inicio del juego cuenta con 16 piezas.
 
-# Heading H1
-Heading 1 text
+El objetivo del juego es colocar al rey contrario en la posición en la que no puede evitar ser capturado, esta posición se llama jaque mate.
 
-## Heading H2
-Heading 2 text
+# ¿QUÉ ES EL AJEDREZ?
+El ajedrez es un juego de ingenio, para dos jugadores, en el que el azar no interviene en absoluto y que requiere un importante esfuerzo intelectual. Cada jugador dispone de dieciséis piezas. Un jugador juega con las piezas blancas y otro con las negras. Cada grupo de piezas consta de un rey, una reina, dos alfiles, dos caballos, dos torres y ocho peones.
 
-### Heading H3
-Heading 3 text
+Se juega sobre un tablero dividido en 64 casillas de colores alternados (normalmente blanco y negro). El tablero se coloca ante los jugadores de tal modo que la casilla de la esquina situada a la derecha de cada uno de ellos sea blanca.
 
-#### Heading H4
-Heading 4 text
+# PROPOSITO DEL AJEDREZ 
+El objetivo del juego es capturar al rey del otro jugador. La captura no se completa nunca, pero una vez que el rey es atacado y no puede escapar de esa captura, se dice que es un jaque mate y el juego finaliza.
 
-##### Heading H5
-Heading 5 text
-
-###### Heading H6
-Heading 6 text
-
-## Lists
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+# HERRAMIENTAS
+- Jugadores: Dos personas concidas como ajedrecistas.
+- Tablero: Un cuadrado formado por 64 casillas en 8 filas y 8 columnas, las casillas son de dos colores y están alternadas por color.
+- Piezas: Cada jugador cuenta con 16 piezas (8 peones, 2 caballos, 2 alfiles, 2 torres, 1 rey 1 reina).
