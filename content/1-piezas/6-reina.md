@@ -1,0 +1,18 @@
+---
+title: "Reina"
+metaTitle: "Reina"
+metaDescription: "This is the meta description for this page"
+---
+
+# Reina
+La dama o también conocida popularmente como Reina, es la pieza más poderosa en el juego de ajedrez, debido a la amplitud de movimientos que puede llegar a realizar.
+Cada jugador tiene una sola dama y esta tiene un valor equivalente al de 9 peones.
+Para la mayoría de los jugadores, la pérdida de la Dama puede incluso significar la pérdida de la partida.
+# ¿Como se mueve la Reina?
+La Dama puede moverse en cualquier dirección y tantas casillas como quiera. La única cosa que no puede hacer es saltar sobre otras piezas.
+
+# Su ubicación en el tablero
+La Dama o Reina siempre se coloca al lado de su Rey. 
+
+
+
