@@ -25,7 +25,7 @@ export default class MDXRuntimeTest extends Component {
       },
     } = data;
 
-    const gitHub = require('../components/images/github.svg');
+    // const gitHub = require('../components/images/github.svg');
 
     const navItems = allMdx.edges
       .map(({ node }) => node.fields.slug)
@@ -92,13 +92,13 @@ export default class MDXRuntimeTest extends Component {
         </Helmet>
         <div className={'titleWrapper'}>
           <StyledHeading>{mdx.fields.title}</StyledHeading>
-          <Edit className={'mobileView'}>
+          {/* <Edit className={'mobileView'}>
             {docsLocation && (
               <Link className={'gitBtn'} to={`${docsLocation}/${mdx.parent.relativePath}`}>
                 <img src={gitHub} alt={'Github logo'} /> Edit on GitHub
               </Link>
             )}
-          </Edit>
+          </Edit> */}
         </div>
         <StyledMainWrapper>
           <MDXRenderer>{mdx.body}</MDXRenderer>
