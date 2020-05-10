@@ -30,8 +30,8 @@ const ListItem = styled(({ className, active, level, ...props }) => {
     }
 
     ${props =>
-      props.active &&
-      `
+    props.active &&
+    `
       // color: #663399;
       border-color: rgb(230,236,241) !important;
       border-style: solid none solid solid;
