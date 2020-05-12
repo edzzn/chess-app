@@ -8,6 +8,8 @@ El Ajedrez es un juego de mesa para dos jugadores, se utiliza un tablero de jueg
 
 El objetivo del juego es colocar al rey contrario en la posición en la que no puede evitar ser capturado, esta posición se llama jaque mate.
 
+![Ajedrez](https://i.imgur.com/mZfYQIf.gif)
+
 # ¿QUÉ ES EL AJEDREZ?
 El ajedrez es un juego de ingenio, para dos jugadores, en el que el azar no interviene en absoluto y que requiere un importante esfuerzo intelectual. Cada jugador dispone de dieciséis piezas. Un jugador juega con las piezas blancas y otro con las negras. Cada grupo de piezas consta de un rey, una reina, dos alfiles, dos caballos, dos torres y ocho peones.
 
@@ -20,3 +22,5 @@ El objetivo del juego es capturar al rey del otro jugador. La captura no se comp
 - Jugadores: Dos personas concidas como ajedrecistas.
 - Tablero: Un cuadrado formado por 64 casillas en 8 filas y 8 columnas, las casillas son de dos colores y están alternadas por color.
 - Piezas: Cada jugador cuenta con 16 piezas (8 peones, 2 caballos, 2 alfiles, 2 torres, 1 rey 1 reina).
+
+![Herramientas](https://i.imgur.com/tf47fn2.png)

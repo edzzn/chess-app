@@ -14,3 +14,5 @@ Las piezas de Ajedrez son los elementos móviles del juego y cada jugador dispon
 
 Denro del tablero de Ajedrez se enceuentran 32 piezas, de las cuales 16 son de color Blanco y las otras 16 de color negro.
 Cada pieza se mueve sobre el tablero a su modo. Por lo tanto es necesario aprender sus seis maneras distintas de moverse. 
+
+![Piezas](https://i.imgur.com/n5SXQJN.png)
