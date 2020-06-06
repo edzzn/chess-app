@@ -1,5 +1,3 @@
-const componentWithMDXScope = require('gatsby-plugin-mdx/component-with-mdx-scope');
-
 const path = require('path');
 
 const startCase = require('lodash.startcase');
@@ -50,7 +48,7 @@ exports.createPages = ({ graphql, actions }) => {
   });
 };
 
-exports.onCreateWebpackConfig = ({ actions }) => {
+exports.onCreateWebpackConfig = ({ actions, loaders, stage }) => {
   actions.setWebpackConfig({
     resolve: {
       modules: [path.resolve(__dirname, 'src'), 'node_modules'],
@@ -60,6 +58,19 @@ exports.onCreateWebpackConfig = ({ actions }) => {
       },
     },
   });
+
+  if (stage === 'build-html') {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /chessboardjsx/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    });
+  }
 };
 
 exports.onCreateBabelConfig = ({ actions }) => {
