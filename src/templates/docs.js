@@ -12,6 +12,7 @@ import ChessGame, {
   ChessGameHumanVsHumanWithMoveValidation,
   ChessGameOnePlayerWithMoveValidation,
 } from '../ChessGame';
+import YoutubeEmbed from '../YoutubeEmbed';
 
 const forcedNavOrder = config.sidebar.forcedNavOrder;
 
@@ -85,6 +86,7 @@ export default class MDXRuntimeTest extends Component {
       ChessGame,
       ChessGameHumanVsHumanWithMoveValidation,
       ChessGameOnePlayerWithMoveValidation,
+      YoutubeEmbed,
     };
 
     return (

@@ -17,10 +17,11 @@ const ChessGame = ({ position }) => {
 export default ChessGame;
 
 class HumanVsHuman extends React.Component {
-  static propTypes = { children: PropTypes.func };
+  static propTypes = { position: PropTypes.string, children: PropTypes.func };
 
   state = {
-    fen: 'start',
+    // fen: 'start',
+    fen: this.props.position,
     // square styles for active drop square
     dropSquareStyle: {},
     // custom square styles
@@ -35,6 +36,7 @@ class HumanVsHuman extends React.Component {
 
   componentDidMount() {
     this.game = new Chess();
+    this.game.load(this.props.position);
   }
 
   // keep clicked square style and remove hint squares
@@ -337,10 +339,12 @@ class OnePlayer extends React.Component {
   }
 }
 
-export function ChessGameHumanVsHumanWithMoveValidation() {
+export function ChessGameHumanVsHumanWithMoveValidation({ position }) {
+  position = position ? position : 'start';
+  console.log('ChessGameHumanVsHumanWithMoveValidation -> position', position);
   return (
     <div>
-      <HumanVsHuman>
+      <HumanVsHuman position={position}>
         {({
           position,
           onDrop,
