@@ -2,11 +2,16 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import MDXRenderer from 'gatsby-plugin-mdx/mdx-renderer';
+import { MDXProvider } from '@mdx-js/react';
 
 import { Layout, Link } from '$components';
 import NextPrevious from '../components/NextPrevious';
 import config from '../../config';
 import { Edit, StyledHeading, StyledMainWrapper } from '../components/styles/Docs';
+import ChessGame, {
+  ChessGameHumanVsHumanWithMoveValidation,
+  ChessGameOnePlayerWithMoveValidation,
+} from '../ChessGame';
 
 const forcedNavOrder = config.sidebar.forcedNavOrder;
 
@@ -76,6 +81,12 @@ export default class MDXRuntimeTest extends Component {
       config.gatsby.pathPrefix !== '/' ? canonicalUrl + config.gatsby.pathPrefix : canonicalUrl;
     canonicalUrl = canonicalUrl + mdx.fields.slug;
 
+    const shortcodes = {
+      ChessGame,
+      ChessGameHumanVsHumanWithMoveValidation,
+      ChessGameOnePlayerWithMoveValidation,
+    };
+
     return (
       <Layout {...this.props}>
         <Helmet>
@@ -101,7 +112,9 @@ export default class MDXRuntimeTest extends Component {
           </Edit> */}
         </div>
         <StyledMainWrapper>
-          <MDXRenderer>{mdx.body}</MDXRenderer>
+          <MDXProvider components={shortcodes}>
+            <MDXRenderer>{mdx.body}</MDXRenderer>
+          </MDXProvider>
         </StyledMainWrapper>
         <div className={'addPaddTopBottom'}>
           <NextPrevious mdx={mdx} nav={nav} />
