@@ -16,6 +16,7 @@
     "@philpl/buble": "^0.19.7",
     "@playlyfe/gql": "^2.6.2",
     "algoliasearch": "^3.35.1",
+    "chess.js": "^0.10.3",
     "chessboardjsx": "^2.4.2",
     "dotenv": "^8.2.0",
     "emotion": "^10.0.23",
