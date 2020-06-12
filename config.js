@@ -8,7 +8,7 @@ const config = {
   header: {
     logo: '',
     logoLink: '/',
-    title: "",
+    title: '',
     // "<a href='https://facilchess.netlify.app/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
     githubUrl: '',
     helpUrl: '',
@@ -38,7 +38,8 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      // '/introduction', // add trailing slash if enabled above
+      '/1-introduction',
+      '/2-tablero', // add trailing slash if enabled above
       // '/codeblock',
     ],
     // collapsedNav: [

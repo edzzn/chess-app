@@ -70,7 +70,7 @@ export default class MDXRuntimeTest extends Component {
           return { title: node.fields.title, url: node.fields.slug };
         }
       });
-
+    console.log(forcedNavOrder);
     // meta tags
     const metaTitle = mdx.frontmatter.metaTitle;
 

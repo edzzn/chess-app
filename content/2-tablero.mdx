@@ -1,0 +1,38 @@
+---
+title: 'Tablero'
+metaTitle: 'Tablero'
+metaDescription: 'Descripcion'
+---
+
+# Diseño del tablero de Ajedrez
+
+Un tablero de ajedrez se compone de 64 casillas iguales en dispuestas en ocho filas y ocho columnas.
+Las casillas se alternan en dos colores, blanco y negro.
+
+Partes del tablero:
+
+- Fila: las ocho hileras horizontales del tablero de ajedrez se llaman filas.
+- Columna: las ocho hileras verticales del tablero de ajedrez se llaman columnas.
+- Diagonal: una línea recta de casillas del mismo color que discurren de un borde a otro del tablero
+  en ángulo se llama diagonal.
+- Centro: las cuatro casillas situadas en medio del tablero se llaman el centro.
+
+Cada una de las casillas tiene un nombre, así que se puede mantener un registro de la partida.
+Existen varios sistemas de nomenclatura, pero la “notación algebraica” es la más popular y el sistema oficial.
+Cada casilla se nombra por la fila y la columna en la que se encuentra.
+Las filas se numeran del 1 al 8 empezando por el lado blanco del tablero hacia el lado negro del tablero.
+Las columnas se etiquetan en minúsculas de la "a" a la "h" de izquierda a derecha según el punto de vista del jugador blanco.
+
+![PartesTablero](https://i.imgur.com/KXjIqQ3.png)
+
+# Configuración Inicial
+
+El tablero se gira, de manera que haya una casilla blanca en la primera fila, al lado derecho del jugador.
+
+Las piezas se sitúan en los lados blanco y negro del tablero de la misma manera.
+En la primera fila empezando en ambos extremos y hacia dentro, se colocan las torres, los caballos y el alfil.
+En las dos casillas que faltan, se coloca la reina en la casilla de su color y el rey en la otra.
+Cuando se han colocado todas, las mismas piezas quedan cara a cara al otro lado del tablero.
+En la segunda fila se colocan los peones.
+
+<ChessGameOnePlayerWithMoveValidation position="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" />
